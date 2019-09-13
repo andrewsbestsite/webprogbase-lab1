@@ -1,0 +1,43 @@
+.eye {
+    position: relative;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+.eye img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .eye .eyelid_up {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #953B20;
+    transition: 0.4s all;
+  }
+  
+  .eye .eyelid_down {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #953B20;
+    transition: 0.4s all;
+  }
+  
+  .eye:hover .eyelid_up {
+    height: 50%;
+  }
+  
+  .eye:hover .eyelid_down {
+    height: 50%;
+  }

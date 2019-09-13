@@ -41,7 +41,7 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px 5px;
+  padding: 8px 5px;
   font-size: 18px;
 }
 
@@ -52,72 +52,14 @@ body {
 
 .right {
   margin-top: 10px;
-  margin-left: 260px;
-}
-
-#ava {
-  display: block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  border-radius: 50%;
-}
-
-#ava:hover {
-  transform: scaleX(-1);
-}
-
-
-.eye {
-  position: relative;
-  margin-top: 30px;
-  height: 300px;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.eye img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.eye .eyelid_up {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 0%;
-  background-color: #953B20;
-  transition: 0.4s all;
-}
-
-.eye .eyelid_down {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 0%;
-  background-color: #953B20;
-  transition: 0.4s all;
-}
-
-.eye:hover .eyelid_up {
-  height: 50%;
-}
-
-.eye:hover .eyelid_down {
-  height: 50%;
+  margin-left: 210px;
 }
 
 #user {
   position: fixed;
   margin-top: 10px;
   height: auto;
-  width: 250px;
+  width: 200px;
 }
 
 i {
@@ -126,41 +68,4 @@ i {
 
 h1 {
   text-align: center;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
-}
-
-th, td {
-  text-align: left;
-  padding: 16px;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  border: 1px solid #ddd;
-  margin-top: -1px;
-  background-color: #f6f6f6;
-  padding: 16px;
-}
-
-li a {
-  display: block;
-  color: #000;
-  text-decoration: none;
-}
-
-ul li:hover {
-  background-color: #eee;
 }
